@@ -12,7 +12,7 @@
 namespace Mautic\CoreBundle\Tests\Unit\Helper;
 
 use Mautic\CoreBundle\Helper\ClickthroughHelper;
-use Mautic\CoreBundle\Tests\unit\Helper\TestResources\WakeupCall;
+use Mautic\CoreBundle\Tests\Unit\Helper\TestResources\WakeupCall;
 
 class ClickthroughHelperTest extends \PHPUnit_Framework_TestCase
 {
