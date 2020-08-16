@@ -57,6 +57,12 @@ class ExtremeIpLookup extends AbstractRemoteDataLookup
                     case 'businessName':
                         $key = 'organization';
                         break;
+                    case 'lat':
+                        $key = 'latitude';
+                        break;
+                    case 'lon':
+                        $key = 'longitude';
+                        break;
                 }
 
                 $this->$key = $value;
